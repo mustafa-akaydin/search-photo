@@ -1,0 +1,28 @@
+.App {
+  margin: 10px;
+}
+.searchDiv {
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.searchDiv form {
+  display: flex;
+  flex-direction: column;
+}
+.imageList {
+  columns: 250px 5;
+  column-gap: 10px;
+
+}
+.imageListImg {
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+input[type="search"]:focus{
+  border-color: rgba(0, 0, 0, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(2, 2, 2, 0.6);
+  outline: 0 none;
+}
